@@ -43,7 +43,6 @@ package com.leetcode;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/reverse-integer
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
- *
  * @author: 李钢 2580704698@qq.com
  * @date: 2021/10/18 17:12
  * @Copyright: Copyright (c) 2019
@@ -52,7 +51,7 @@ public class Question7 extends BaseQuestion {
     public static void main(String[] args) {
         int inputNum = 123456789;
         timeBegin();
-        int outputNum = reverse1(inputNum);
+        int outputNum = reverse2(inputNum);
         timeEnd();
         System.out.println(outputNum);
     }
@@ -71,6 +70,25 @@ public class Question7 extends BaseQuestion {
                 return 0;
             }
             res = res * 10 + tmp;
+            x /= 10;
+        }
+        return res;
+
+    }
+
+    public static int reverse2(int x) {
+        int res = 0;
+        int last;
+        while (x != 0) {
+            //每次取末尾数字
+            int temp = x % 10;
+            last = res;
+            res = res * 10 + temp;
+            // 判断整数溢出
+            // res每次更新后除10，然后跟上一次的res比较一下，如果不相等，就是溢出
+            if (last != res / 10) {
+                return 0;
+            }
             x /= 10;
         }
         return res;
