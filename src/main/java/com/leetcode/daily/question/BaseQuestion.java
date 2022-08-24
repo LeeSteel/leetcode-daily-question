@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.daily.question;
 
 /**
  * @version V1.0
@@ -14,18 +14,21 @@ public abstract class BaseQuestion {
     private static long endTimeMillis = 0;
 
     /**
-     *  计时开始
+     * 计时开始
+     *
      * @return 开始时的时间毫秒数
      */
-    protected static long timeBegin() {
+    protected  long timeBegin() {
         beginTimeMillis = System.currentTimeMillis();
         return beginTimeMillis;
     }
+
     /**
-     *  计时结束
+     * 计时结束
+     *
      * @return 返回花费的时间毫秒数
      */
-    protected static long timeEnd() {
+    protected  long timeEnd() {
         endTimeMillis = System.currentTimeMillis();
         long takeTimeMillis = endTimeMillis - beginTimeMillis;
         beginTimeMillis = endTimeMillis;

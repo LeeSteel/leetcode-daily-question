@@ -1,4 +1,7 @@
-package com.leetcode;
+package com.leetcode.daily.question;
+
+import com.leetcode.daily.degreeofdifficulty.Medium;
+import org.junit.jupiter.api.Test;
 
 /**
  * @version V1.0
@@ -47,12 +50,18 @@ package com.leetcode;
  * @date: 2021/10/18 17:12
  * @Copyright: Copyright (c) 2019
  */
-public class Question7 extends BaseQuestion {
-    public static void main(String[] args) {
+public class Question7 implements Medium {
+    @Test
+    public void reverse1Test() {
         int inputNum = 123456789;
-        timeBegin();
+        int outputNum = reverse1(inputNum);
+        System.out.println(outputNum);
+    }
+
+    @Test
+    public void reverse2Test() {
+        int inputNum = 123456789;
         int outputNum = reverse2(inputNum);
-        timeEnd();
         System.out.println(outputNum);
     }
 

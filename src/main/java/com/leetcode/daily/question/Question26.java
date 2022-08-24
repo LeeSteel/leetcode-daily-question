@@ -1,6 +1,8 @@
-package com.leetcode;
+package com.leetcode.daily.question;
 
-import java.util.Arrays;
+import com.leetcode.daily.degreeofdifficulty.Simple;
+import com.leetcode.daily.tags.Array;
+import org.junit.jupiter.api.Test;
 
 /**
  * @version V1.0
@@ -59,12 +61,14 @@ import java.util.Arrays;
  * @date: 2021/10/19 14:40
  * @Copyright: Copyright (c) 2019
  */
-public class Question26 extends BaseQuestion {
-    public static void main(String[] args) {
+public class Question26 implements Array, Simple {
+
+    @Test
+    public void removeDuplicatesTest() {
         int[] nums = new int[]{1, 2, 2, 3, 4};
-        timeBegin();
+
         int numsLength = removeDuplicates(nums);
-        timeEnd();
+
         System.out.println(numsLength);
     }
 

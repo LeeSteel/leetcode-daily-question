@@ -1,4 +1,8 @@
-package com.leetcode;
+package com.leetcode.daily.question;
+
+import com.leetcode.daily.degreeofdifficulty.Medium;
+import com.leetcode.daily.degreeofdifficulty.Simple;
+import org.junit.jupiter.api.Test;
 
 /**
  * @version V1.0
@@ -50,12 +54,12 @@ package com.leetcode;
  * @date: 2021/10/18 18:04
  * @Copyright: Copyright (c) 2019
  */
-public class Question9 extends BaseQuestion {
-    public static void main(String[] args) {
+public class Question9 implements Simple {
+
+    @Test
+    public  void isPalindrome1Test( ) {
         int inputNum = 123455432;
-        timeBegin();
         boolean palindrome = isPalindrome1(inputNum);
-        timeEnd();
         System.out.println(palindrome);
     }
 
