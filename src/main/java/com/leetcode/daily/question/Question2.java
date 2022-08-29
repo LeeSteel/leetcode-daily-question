@@ -1,6 +1,7 @@
 package com.leetcode.daily.question;
 
-import com.leetcode.daily.degreeofdifficulty.Medium;
+import com.leetcode.daily.question.bean.question2.ListNode;
+import com.leetcode.daily.tags.difficulty.Medium;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -79,11 +80,3 @@ public class Question2  implements Medium {
 }
 
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}

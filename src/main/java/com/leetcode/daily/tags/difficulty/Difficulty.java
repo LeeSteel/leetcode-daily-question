@@ -1,4 +1,4 @@
-package com.leetcode.daily.degreeofdifficulty;
+package com.leetcode.daily.tags.difficulty;
 
 /**
  * @version V1.0

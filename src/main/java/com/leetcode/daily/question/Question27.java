@@ -1,6 +1,6 @@
 package com.leetcode.daily.question;
 
-import com.leetcode.daily.degreeofdifficulty.Simple;
+import com.leetcode.daily.tags.difficulty.Simple;
 import com.leetcode.daily.tags.Array;
 import org.junit.jupiter.api.Test;
 
@@ -69,7 +69,7 @@ import java.util.Arrays;
 public class Question27 implements Array, Simple {
 
     @Test
-    public void removeDuplicatesTest() {
+    public void removeElementTest() {
         int[] nums = new int[]{3, 2, 2, 3};
         int  val = 3  ;
 

@@ -1,6 +1,6 @@
 package com.leetcode.daily.question;
 
-import com.leetcode.daily.degreeofdifficulty.Medium;
+import com.leetcode.daily.tags.difficulty.Medium;
 import org.junit.jupiter.api.Test;
 
 /**
