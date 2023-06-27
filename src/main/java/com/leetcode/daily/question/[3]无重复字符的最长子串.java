@@ -41,7 +41,7 @@ import java.util.Map;
  * @date: 2020/8/13 17:03
  * @Copyright: Copyright (c) 2019
  */
-public class Question3_LongestSubstringWithoutRepeatingCharacters implements Medium {
+ class LongestSubstringWithoutRepeatingCharacters implements Medium {
     @Test
     public  void lengthOfLongestSubstringTest( ) {
 

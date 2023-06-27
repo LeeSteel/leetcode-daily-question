@@ -32,7 +32,7 @@ import java.util.Map;
  * @date: 2020/8/13 10:54
  * @Copyright: Copyright (c) 2019
  */
-public class Question1_TwoSum  implements Array, Simple {
+class TwoSum  implements Array, Simple {
 
     int[] nums;
     int target;

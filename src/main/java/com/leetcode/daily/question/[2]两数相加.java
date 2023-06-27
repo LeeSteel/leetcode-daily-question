@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
  * @date: 2020/8/13 17:03
  * @Copyright: Copyright (c) 2019
  */
-public class Question2_AddTwoNumbers  implements Medium {
+class AddTwoNumbers  implements Medium {
 
     /**
      *

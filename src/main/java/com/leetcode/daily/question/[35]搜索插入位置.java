@@ -17,7 +17,7 @@ import org.junit.jupiter.api.Test;
  * @date: 2022/8/24 14:27
  * @Copyright: Copyright (c) 2019
  */
-public class Question35 implements Array, BinarySearch,Simple {
+class SearchInsert implements Array, BinarySearch,Simple {
 
 
     @Test

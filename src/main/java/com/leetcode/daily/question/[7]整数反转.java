@@ -50,7 +50,7 @@ import org.junit.jupiter.api.Test;
  * @date: 2021/10/18 17:12
  * @Copyright: Copyright (c) 2019
  */
-public class Question7 implements Medium {
+  class Reverse implements Medium {
     @Test
     public void reverse1Test() {
         int inputNum = 123456789;

@@ -53,7 +53,7 @@ import org.junit.jupiter.api.Test;
  * @date: 2021/10/18 18:04
  * @Copyright: Copyright (c) 2019
  */
-public class Question9 implements Simple {
+  class IsPalindrome implements Simple {
 
     @Test
     public  void isPalindrome1Test( ) {

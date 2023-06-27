@@ -66,7 +66,7 @@ import java.util.Arrays;
  * @date: 2021/10/19 14:40
  * @Copyright: Copyright (c) 2019
  */
-public class Question27 implements Array, Simple {
+  class RemoveElement implements Array, Simple {
 
     @Test
     public void removeElementTest() {

@@ -31,17 +31,25 @@ import org.junit.jupiter.api.Test;
  * @date: 2020/8/13 10:54
  * @Copyright: Copyright (c) 2019
  */
-public class Question344_ReverseString {
+ class ReverseString {
     @Test
     public void method2Test() {
         TimeUtil.timeBegin();
         char[] chars = new char[]{'h', 'e', 'l', 'l', 'o'};
+        System.out.println(chars);
         reverseString(chars);
+        System.out.println(chars);
+
+
+        chars = new char[]{'h', 'e', 'l', 'l', 'o','!'};
+        System.out.println(chars);
+        reverseString(chars);
+        System.out.println(chars);
         TimeUtil.timeEnd();
     }
 
     public void reverseString(char[] s) {
-        for (int i = 0; i < s.length/2; i++) {
+        for (int i = 0; i < s.length / 2; i++) {
             char temp = s[i];
             s[i] = s[s.length - 1 - i];
             s[s.length - 1 - i] = temp;

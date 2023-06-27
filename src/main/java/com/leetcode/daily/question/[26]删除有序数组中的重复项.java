@@ -61,7 +61,7 @@ import org.junit.jupiter.api.Test;
  * @date: 2021/10/19 14:40
  * @Copyright: Copyright (c) 2019
  */
-public class Question26 implements Array, Simple {
+  class RemoveDuplicates implements Array, Simple {
 
     @Test
     public void removeDuplicatesTest() {
